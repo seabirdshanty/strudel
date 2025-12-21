@@ -1,0 +1,22 @@
+$: setcpm(150/4)
+
+$: n("0*2 -").sound("jazz").pan(0)
+$: note("[c e b g <a d> -]").s("piano").lpf(800)
+$: note("[c2 e2 b2 g2 <a2 d2> -]")
+  .sound("piano")
+  .vowel("i")
+  .lpf(800)
+  .room(2)
+  .sustain("1")
+$: note("<36 43@2, 52 59 62 64>")
+  .slow("0.5")
+  .sound("piano")
+  .release(.5)
+  .delay(".6")
+  .room(2)
+  .gain(sine)
+
+
+
+
+
