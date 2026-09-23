@@ -1,0 +1,13 @@
+$: setcpm(150/6)
+
+$: n("0*2").sound("drumulator_rim").pan(0)
+
+$: note("<50 52 57 62, 43@2 50@2>*4")
+  .slow("0.5")
+  .sound("piano")
+  .release(.5)
+  .delay(".6")
+  .room(2)
+  .gain(sine)
+$: note("d e f# g a b").sound("gm_electric_guitar_muted")
+$: note("e*2 f# g b*2 a e").sound("gm_english_horn")
